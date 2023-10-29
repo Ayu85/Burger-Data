@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.nav-buttons>ul {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+    font-size: large;
+}
+
+.logo>img {
+    width: 80px;
+}
+
+.log-btn-container>button {
+    width: 85px;
+    height: 35px;
+    border-radius: 8px;
+    font-size: 15px;
+    border: none;
+    background: #FC0929;
+    color: white;
+}
